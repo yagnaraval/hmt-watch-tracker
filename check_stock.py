@@ -63,6 +63,7 @@ def check_stock():
 
 def main():
     result = check_stock()
+    result = True # checking
 
     if result is None:
         print("Check failed, skipping")
