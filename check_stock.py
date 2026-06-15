@@ -63,7 +63,7 @@ def check_stock():
 
 def main():
     result = check_stock()
-    result = True # checking
+    #result = True # checking/testing telegram feature without hitting the website
 
     if result is None:
         print("Check failed, skipping")
