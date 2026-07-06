@@ -259,10 +259,6 @@ playwright install chromium
 
 ---
 
-## License
-
-MIT — free to use, modify, and distribute with my permission.
-
 ## Connect with me
 
 Found this useful or have suggestions? Feel free to reach out.
