@@ -26,12 +26,14 @@ HMT watches (especially specific color variants) go out of stock almost immediat
 ---
 
 ## Project structure
+```
 hmt-watch-tracker/
 ├── check_stock.py          # Main script
 ├── requirements.txt        # Python dependencies
 └── .github/
-└── workflows/
-└── check_stock.yml # GitHub Actions workflow (cron schedule)
+    └── workflows/
+        └── check_stock.yml # GitHub Actions workflow (cron schedule)
+```
 ---
 
 ## Setup guide
@@ -169,11 +171,14 @@ on:
 ```
 
 **Cron format reference:**
+```
+* * * * *
 │ │ │ │ └── Day of week (0-6, Sun=0)
 │ │ │ └──── Month (1-12)
 │ │ └────── Day of month (1-31)
 │ └──────── Hour (0-23)
 └────────── Minute (0-59)
+```
 
 Common intervals:
 - Every 5 minutes: `*/5 * * * *`
